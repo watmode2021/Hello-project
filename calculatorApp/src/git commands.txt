@@ -1,0 +1,13 @@
+echo "# Hello-project" >> README.md
+git init
+git add .
+git commit -m " Hello project first commit"
+git branch -M main
+git remote add origin https://github.com/watmode2021/Hello-project.git
+git push -u origin main
+
+
+
+
+git config --global user.email "rutujawatmode421@gmail.com"
+git config --global user.name "watmode2021"
